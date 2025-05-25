@@ -15,7 +15,7 @@ const config = new pulumi.Config()
 // const containerPort = config.requireNumber('containerPort')
 // const publicPort = config.requireNumber('publicPort')
 // const cpu = config.requireNumber('cpu')
-// const memory = config.requireNumber('memory')
+//// const memory = config.requireNumber('memory')
 
 
 const appPath = '../'
