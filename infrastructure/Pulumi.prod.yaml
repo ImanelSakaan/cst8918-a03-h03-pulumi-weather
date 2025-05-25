@@ -1,0 +1,7 @@
+config:
+  cst8918-a03-infra:appPath: ../
+  cst8918-a03-infra:prefixName: cst8918-a03-elsa0105
+  cst8918-a03-infra:imageTag: v0.2.0
+  cst8918-a03-infra:containerPort: "80"
+  cst8918-a03-infra:publicPort: "80"
+  azure-native:location: westus3
