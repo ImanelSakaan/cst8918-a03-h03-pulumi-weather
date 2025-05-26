@@ -1,7 +1,11 @@
 config:
   cst8918-a03-infra:appPath: ../
   cst8918-a03-infra:prefixName: cst8918-a03-elsa0105
-  cst8918-a03-infra:imageTag: v0.2.0
+  cst8918-a03-infra:imageTag: v0.3.0
   cst8918-a03-infra:containerPort: "80"
   cst8918-a03-infra:publicPort: "80"
   azure-native:location: westus3
+  openweather:apiKey:
+    secure: AAABACg7DGjOdYe9kmauaGUYmjdiMHNvAW++bwgtMSWGvuOfxbvgAjIR0kUuH6pviHa9ATLV4fmXvheq9zKhSA==
+  cst8918-a03-infra:weatherApiKey:
+    secure: AAABALxH/sKgV6n/PcmL+7M2SGbM85vM3NTbxRhjMQ+KDTSwxSHJazY7Q5nrECn684kqRYCH7ZhB9NDgDxIuSg==
